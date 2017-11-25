@@ -1,59 +1,90 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <!---<meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Die Wäsche-{}</title>--->
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Die {Wäsche}</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
 
 
-        <h1>{Wäsche}</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="Wetter.html">Wetter</a></li>
-                <li><a href="download.html">Download</a></li>
-            </ul>
-        </nav>
+    <h1>{Wäsche}</h1>
 
-        <h3>Was ist die {Wäsche}?</h3>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Start</a>
+            </li>
+            <li>
+                <a href="Wetter.html">Wetter</a>
+            </li>
+            <li>
+                <a href="download.html">Download</a>
+            </li>
+        </ul>
+    </nav>
 
-        <p>Die {Wäsche} ist eine Hardware, die sich über das Internet verbinden kann und eine Benachrichtigung sendet, wenn die Wäsche trocken ist.
-        </p>
+    <h3>Was ist die {Wäsche}?</h3>
 
-        
-        <p>
-            <em>Die {Wäsche} ist sehr praktisch.</em>
-            Besonders für Leute, deren Weg zur Wäsche etwas weiter ist, beispielsweise für Leute mit einem Haus, deren Wäsche in einem anderen Stockwerk hängt! Die Wäsche-{} ist ein Smart System und erkennt, wenn die Wäsche tocken ist und sendet eine Benachrichtigung an dein Handy, oder gibt die andere Signale, wie z.B. das Licht auszuschalten, die Tür zu öffnen. 
-            
-        </p>
+    <p>Die {Wäsche} ist eine Hardware, die sich über das Internet verbinden kann und eine Benachrichtigung sendet, wenn die
+        Wäsche trocken ist.
+    </p>
 
-        <h3>Welche Hardware haben wir benutzt?</h3>
-        <p>
+
+    <p>
+        <em>Die {Wäsche} ist sehr praktisch.</em>
+        Besonders für Leute, deren Weg zur Wäsche etwas weiter ist, beispielsweise für Leute mit einem Haus, deren Wäsche in einem
+        anderen Stockwerk hängt! Die Wäsche-{} ist ein Smart System und erkennt, wenn die Wäsche tocken ist und sendet eine
+        Benachrichtigung an dein Handy, oder gibt die andere Signale, wie z.B. das Licht auszuschalten, die Tür zu öffnen.
+
+    </p>
+
+    <h3 class="ueberschrift">Welche Hardware haben wir benutzt?</h3>
+    <div class="spacer">
+    </div>
+    <div class="hardwareclass">
+        <p class="hardware">
             Wir haben node mcu esp8266, Sensor: DHT11 benutzt!
         </p>
-        <img src="giphy-downsized-large.gif"/>
-        
+    </div>
+    <img class="gif" src="giphy-downsized-large.gif" />
 
-        <h3>App</h3>
-        <p>Es gibt eine eigene App für die Wäscheklammer, mit der man sehen kann, wie trocken die Wäsche im Moment ist. Außerdem bekommt man Push-Benachrichtigungen, sobald die Wäsche trocken ist und kann die aktuelle Wettervorhersage sehen. <em>Die App ist kostenlos</em>
-        </p>
 
-       
-            
-            <img alt="Eine Wäscheklammer" src="https://thumbs.dreamstime.com/z/gelbe-w%C3%A4scheklammer-58166482.jpg" />
-        </a>
+    <h3>App</h3>
+    <p>Es gibt eine eigene App für die Wäscheklammer, mit der man sehen kann, wie trocken die Wäsche im Moment ist. Außerdem
+        bekommt man Push-Benachrichtigungen, sobald die Wäsche trocken ist und kann die aktuelle Wettervorhersage sehen.
+        <em>Die App ist kostenlos</em>
+    </p>
 
-        
-        
-        <ul>
-            <li><a href="http://jugendhackt.org">Jugendhackt.org</a></li>
-            <li><a href="https://github.com/Jugendhackt/waescheklammer-web">Waescheklammer Projekt auf GitHub</a></li>
-            <li><a href="https://twitter.com/waescheklammerj">@waescheklammerj auf Twitter</a></li>
-        </ul>
-    </body>
+
+
+    <img alt="Eine Wäscheklammer" src="https://thumbs.dreamstime.com/z/gelbe-w%C3%A4scheklammer-58166482.jpg" />
+    </a>
+
+
+
+    <ul>
+        <li>
+            <a href="http://jugendhackt.org">Jugendhackt.org</a>
+        </li>
+        <li>
+            <a href="https://github.com/Jugendhackt/waescheklammer-web">Waescheklammer Projekt auf GitHub</a>
+        </li>
+        <li>
+            <a href="https://twitter.com/waescheklammerj">@waescheklammerj auf Twitter</a>
+        </li>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+    </ul>
+</body>
+
 </html>
-   
