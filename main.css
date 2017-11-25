@@ -76,6 +76,22 @@ a {
    text-decoration: none; 
 }
 
+.gif {
+    display: inline;
+    width: 45%;
+    height: auto;
+    float: right;
+}
+.hardware {
+    display: inline;
+    text-align: center;
+}
+.ueberschrift {
+    display: inline;
+}
+.spacer {
+    height: 20px;
+}
 @keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
@@ -85,4 +101,5 @@ a {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
+
 }
