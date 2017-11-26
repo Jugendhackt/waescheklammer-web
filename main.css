@@ -86,11 +86,12 @@ samp {
     }
 }
 
-span {
+span.Wetter {
     float:right;
+    font-size: 25px;
 }
 
-img {
+img.gif {
   height: auto;
   animation: colorize 2s cubic-bezier(0, 0, 0.78, 0.36) 1;
   background: transparent;
@@ -99,6 +100,10 @@ img {
   display: block;
   margin: 1.3em auto;
   max-width: 95%;
+}
+
+img.pic{
+    width: 100%;
 }
 
 nav ul {
