@@ -88,6 +88,9 @@ nav li {
 nav li:hover {
   background-color: #203e60;
 }
+nav a:hover{
+    color: #fff;
+}
 li {
   text-decoration: none;
   display: inline;
@@ -95,6 +98,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
 }
 
 .gif {
