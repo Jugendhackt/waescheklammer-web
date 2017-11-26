@@ -90,6 +90,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
             crossorigin="anonymous"></script>
     </ul>
-</body>
+<script>
+    
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=af9286c95356543161fe96280bac0a24") 
+    .then(response=>response.json())
+    .then(json=>document.getElementById("temperatur").innerHTML=json.main.temp-273)
+    </script>
+    </body>
 
 </html>
