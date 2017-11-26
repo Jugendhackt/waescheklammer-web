@@ -38,8 +38,11 @@ samp {
     display: none;
 }
 
-img {
+.gif {
+    display:inline;
+    width:45%;
     height:auto;
+    float:right;
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
     border: 10px solid rgba(0, 0, 0, 0.12);
@@ -60,9 +63,7 @@ img {
     }
 }
 .grafik{
-    width: auto;
-    font-size-adjust: auto
-    heightactive: 50  }
+    width: 100%;
 
         
 }
