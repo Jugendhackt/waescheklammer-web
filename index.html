@@ -95,7 +95,10 @@
     
     fetch("https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=af9286c95356543161fe96280bac0a24") 
     .then(response=>response.json())
-    .then(json=>document.getElementById("temperatur").innerHTML=json.main.temp-273)
+    .then(json=>{
+        let celsius=json.main.temp-273;
+        document.getElementById("temperatur").innerHTML=celsius.toFixed(2)
+    })
     </script>
     </body>
 
